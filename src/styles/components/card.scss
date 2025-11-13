@@ -7,6 +7,7 @@
         object-fit: cover;
         height: 100%;
         width: 100%;
+        border-radius: 16px;
     }
     h3 {
         font-family: 'Work Sans', sans-serif;
@@ -34,5 +35,11 @@
         width: 255px;
         height: 40px;
         border-radius: 100px;
+        text-decoration: none;
+    }
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
