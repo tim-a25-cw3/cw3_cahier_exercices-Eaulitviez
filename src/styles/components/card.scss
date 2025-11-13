@@ -1,9 +1,14 @@
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 32px;
     img {
         object-fit: cover;
         height: 100%;
         width: 100%;
     }
+}
+
+.card .inverser {
+    z-index: -1;
 }
