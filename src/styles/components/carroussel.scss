@@ -5,13 +5,28 @@
         color: var(--color-black);
     }
     padding: 80px 0px;
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: typo(40px);
+        font-weight: 600;
+    }
+    span {
+        font-weight: 300;
+    }
+    h3 {
+        color: var(--color-black);
+        font-weight: 600;
+    }
+    p {
+        color: var(--color-black);
+    }
+    .tag {
+        color: var(--color-black);
+    }
 }
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: typo(40px);
-    font-weight: 600;
-}
-.swiper-pagination {
+
+.carroussel .swiper-pagination {
     --swiper-pagination-color: var(--color-white);
     --swiper-pagination-bullet-inactive-color: var(--color-black);
     --swiper-pagination-bullet-width: 20px;
@@ -22,6 +37,6 @@ h2 {
     position: static;
 }
 
-.swiper-pagination-bullet {
+.carroussel .swiper-pagination-bullet {
     transform: rotate(45deg);
 }

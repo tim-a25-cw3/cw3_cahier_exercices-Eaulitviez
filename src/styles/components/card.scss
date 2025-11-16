@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 52px;
-    gap: 32px;
     img {
         object-fit: cover;
         height: 100%;
@@ -19,13 +18,16 @@
     .tag {
         color: var(--color-white);
         font-size: typo(18px);
+        font-weight: 300;
     }
     p {
         color: var(--color-white);
         margin: 0px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: typo(32px);
     }
     span {
-        opacity: 50%;
+        color: var(--color-secondary);
         font-weight: 300;
     }
     a {
