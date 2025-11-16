@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 52px;
+    gap: 32px;
     img {
         object-fit: cover;
         height: 100%;
@@ -49,7 +50,7 @@
         gap: 32px;
     }
     .card_media {
-        width: 594px;
+        display: flex;
         height: 490px;
     }
 }
