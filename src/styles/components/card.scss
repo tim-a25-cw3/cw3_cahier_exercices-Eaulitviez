@@ -3,14 +3,14 @@
     grid-template-columns: 1fr 1fr;
     margin-bottom: 52px;
     gap: 32px;
-    &:nth-child(even) {
+    &:nth-child(odd) {
         .card_content {
             order: -1;
         }
     }
     @media (width <= 1030px) {
         grid-template-columns: 1fr;
-        &:nth-child(even) {
+        &:nth-child(odd) {
             .card_content {
                 order: 1;
             }
