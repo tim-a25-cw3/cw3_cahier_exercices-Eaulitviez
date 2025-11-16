@@ -8,7 +8,7 @@
             order: -1;
         }
     }
-    @media (width <= 1030px) {
+    @media (width <= $breakpoint-sm) {
         grid-template-columns: 1fr;
         &:nth-child(odd) {
             .card_content {

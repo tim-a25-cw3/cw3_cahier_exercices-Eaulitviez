@@ -18,6 +18,7 @@
         font-family: 'Work Sans', sans-serif;
         font-size: typo(30px, 40px);
         font-weight: 600;
+        margin-bottom: 100px;
     }
     span {
         font-weight: 300;
@@ -35,6 +36,12 @@
     .card {
         :nth-child(odd) {
             order: -1;
+        }
+    }
+    @media (width <= $breakpoint-sm) {
+        h2 {
+            text-align: center;
+            width: 100%;
         }
     }
 }

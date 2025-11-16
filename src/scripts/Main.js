@@ -16,6 +16,11 @@ class Main {
       pagination: {
         el: '.swiper-pagination',
       },
+      breakpoints: {
+        768: {
+          slidesPerView: 1,
+        },
+      },
     });
   }
 }

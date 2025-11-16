@@ -4,9 +4,17 @@
         font-family: 'Work Sans', sans-serif;
         font-size: typo(30px, 40px);
         font-weight: 600;
+        margin-bottom: 100px;
     }
     span {
         opacity: 50%;
         font-weight: 300;
+    }
+    padding: 80px 0px;
+    @media (width <= $breakpoint-sm) {
+        h2 {
+            text-align: center;
+            width: 100%;
+        }
     }
 }
