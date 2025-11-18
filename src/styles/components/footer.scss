@@ -1,10 +1,11 @@
 footer {
     span {
         color: var(--color-white);
+            font-weight: 600;
+
     }
     color: var(--color-secondary);
     font-weight: 300;
-    font-weight: 600;
     text-align: center;
     padding: 40px 0px;
     color: var(--color-secondary);
@@ -17,13 +18,15 @@ footer {
         margin: 0px;
     }
     h2 {
-        margin-bottom: 30px;
         font-family: 'Montserrat', sans-serif;
         font-size: typo(40px);
-        font-weight: 600;
+        font-weight: 300;
+        margin: 0px;
     }
 
     p {
         margin-bottom: 30px;
+                margin-top: 30px;
+
     }
 }
